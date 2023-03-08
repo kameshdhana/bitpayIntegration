@@ -16,7 +16,7 @@ items.push(item1);
 // item2.description = "Test Item 2";
 // items.push(item2);
 
-let bill = new Models.Bill("KamsTesting", Currency.USD, "", items);
+let bill = new Models.Bill("TestingBills", Currency.USD, "", items);
 bill.email = "kdhanasekaran1999@gmail.com";
 // console.log("ITems",bill,items);
 async function createBill(bill){
